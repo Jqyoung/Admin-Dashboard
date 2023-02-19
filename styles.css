@@ -26,15 +26,15 @@ button{
 /* start of sidebar section styling */
 .sidebar{
 color: white;
-padding: 20px 0 0 15px;
+padding: 20px 0 0 20px;
 background-color: #0284c7;
 grid-area:sidebar;
 display: grid;
 grid-template-columns: repeat(2, min-content);
-grid-template-rows: min-content 50px repeat(6, min-content) 50px repeat(3, min-content);
+grid-template-rows: min-content 25px repeat(6, min-content) 25px repeat(3, min-content);
 align-items: center;
 align-content: start;
-gap: 15px;
+gap: 25px 10px;
 }
 
 .sidebar::before{
@@ -50,14 +50,22 @@ gap: 15px;
 }
 
 .sidebar img{
-    width: 30px;
+    width: 25px;
     justify-self:center;
     filter: invert(1);
    
 }
 
 .sidebar>img:first-child{
-    width:50px;
+    width:45px;
+}
+
+.sidebar>h2{
+    font-size: 1.4rem;
+}
+
+.sidebar>h1{
+    font-size: 1.8rem;
 }
 
 
